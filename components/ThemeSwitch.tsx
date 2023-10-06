@@ -4,7 +4,7 @@ import { Theme } from "@/lib/types";
 import { useState, useEffect } from "react";
 import { BsMoon, BsSun } from "react-icons/bs";
 
-const ThemeSwitch = (): JSX.Element => {
+const ThemeSwitch = () => {
   const [theme, setTheme] = useState<Theme>(
     window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light"
   );

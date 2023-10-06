@@ -20,9 +20,8 @@ export default function Projects() {
         ))}
       </div>
       <div className="flex items-center justify-center mt-8 ">
-
-      <a
-          href="https://github.com/Matteo-CB/portfolio-nextJS"
+        <a
+          href="https://github.com/Matteo-CB/matteocb-portfolio"
           target="_blank"
           className="cursor-pointer group sm:text-sm text-xs bg-black/[0.8] text-white px-5 py-2 flex items-center gap-2 rounded-full text-center outline-none focus:scale-110 hover:scale-110 hover:bg-black/[0.9]   active:scale-105 transition"
         >
