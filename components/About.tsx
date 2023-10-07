@@ -26,7 +26,7 @@ export default function About() {
           {" "}
           nouveaux problèmes et m'augmentent en expérience.
         </span>
-        J'ai suivi une formation d'intégrateur web d'intégrateur web <span className="italic underline">RNCP niveau 5 équivalent bac+2</span> 
+        {" "}J'ai suivi une formation d'intégrateur web <span className="italic underline">RNCP niveau 5 équivalent bac+2</span> 
       </p>
       <p>
         Je sais aussi utiliser d'autres technologies et outils de frontend comme{" "}
