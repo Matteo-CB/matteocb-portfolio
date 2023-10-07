@@ -3,11 +3,15 @@
 import React from "react";
 import { RiCloseFill } from "react-icons/ri";
 
-export default function MessageSend({ isSend, setIsSend, hangleOverfow }: any) {
+export default function MessageSend({
+  isSend,
+  setIsSend,
+  hangleOverfow,
+}: any): any {
   return (
     <>
       {isSend && (
-        <>
+        <div>
           <div className="bg-black opacity-50 h-[200vh] w-full fixed -translate-y-[25%] z-[454656564564564]"></div>
           <div className="z-[454656564564565886468] flex items-center justify-center fixed top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 bg-gray-200 h-[200px] p-[40px] rounded gradient3">
             <RiCloseFill
@@ -19,7 +23,7 @@ export default function MessageSend({ isSend, setIsSend, hangleOverfow }: any) {
             />
             <p className="text-gray-900">Votre Message a bien été envoyé !</p>
           </div>
-        </>
+        </div>
       )}
     </>
   );
