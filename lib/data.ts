@@ -66,7 +66,7 @@ export const skillsData = [
   "Redux",
   "Redux-Toolkit",
   "Express",
-  "PHP",
+  // "PHP",
   // "MySQL",
   "Python",
   "Framer Motion",
