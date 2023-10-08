@@ -44,7 +44,8 @@ export default function Legal({ isLegalOpen, setIsLegalOpen }: any) {
               Votre nom et votre adresse mail peuvent être collectés en me
               contactant via le formulaire de contact. {" "}
               Si vous ne souhaitez pas que vos données soient collectées, merci de ne pas utiliser le formulaire de contact. {" "}
-              Si vous souhaitez que vos données soient supprimées, merci de me contacter via le formulaire de contact.
+              Si vous souhaitez que vos données soient supprimées, merci de me contacter via le formulaire de contact.{" "}
+              Votre préférence entre le mode sombre et clair et aussi collecté.
             </p>
           </div>
         </>
