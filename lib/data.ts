@@ -64,8 +64,6 @@ export const skillsData = [
   "Tailwind",
   "MongoDB",
   "Redux",
-  "ChatGPT",
-  "GitHub Copilot",
   "Redux-Toolkit",
   "Express",
   "PHP",
