@@ -1,4 +1,4 @@
-import Removebg from "../public/images/projects/removebg.PNG";
+import Removebg from "../public/images/projects/removebg.png";
 import Ecommerce from "../public/images/projects/ecommerce-c1.png";
 import Countries from "../public/images/projects/cover-rest.png";
 
