@@ -1,4 +1,4 @@
-import Removebg from "../public/images/projects/removebg.png";
+import RemoveBg from "../public/images/projects/removebg.png";
 import Ecommerce from "../public/images/projects/ecommerce-c1.png";
 import Countries from "../public/images/projects/cover-rest.png";
 
@@ -31,7 +31,7 @@ export const projectsData = [
     description:
       "Une Application créer avec Next.js et Tailwind CSS, qui permet de supprimer l'arrière plan d'une image.",
     tags: ["Next.js", "Tailwind CSS", "TypeScript"],
-    imageUrl: Removebg,
+    imageUrl: RemoveBg,
     url: "https://removebackground-dlkdigitalagency.vercel.app/",
     code: "https://github.com/Matteo-CB/Remove-bg-app",
   },
