@@ -93,13 +93,13 @@ export default function Intro() {
           Télécharger le CV{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
-        {/* <a
-          href="https://linkedin.com"
+         <a
+          href="https://linkedin.com/in/matteocb"
           target="_blank"
           className="cursor-pointer transition active:scale-105 hover:scale-110 bg-white p-4 flex text-gray-700 items-center gap-2 rounded-full borderBlack hover:text-gray-950 dark:bg-white/10 dark:text-white/60"
         >
           <BsLinkedin />
-        </a> */}
+        </a>
 
         <a
           href="https://github.com/Matteo-CB"
