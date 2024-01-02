@@ -10,7 +10,7 @@ export default function Footer() {
     <footer className="mb-10 px-4 text-center text-gray-500">
       <Legal isLegalOpen={isLegalOpen} setIsLegalOpen={setIsLegalOpen} />
       <small className="mb-2 block text-xs">
-        &#10148; 2023 Matteo Chante-Biyikli.
+        &#10148; 2024 Matteo Chante-Biyikli.
       </small>
       <p className="test-xs">
         <span className="font-semibold">À propos de ce site:</span> Réalisé avec
