@@ -1,6 +1,7 @@
 import RemoveBg from "../public/images/projects/removebg.jpg";
-import Ecommerce from "../public/images/projects/ecommerce-c1.png";
 import Countries from "../public/images/projects/cover-rest.png";
+import DLK from "../public/images/projects/dlk.png";
+import FlopyBoard from "../public/images/projects/flopy-board.png";
 
 export const links = [
   {
@@ -27,6 +28,24 @@ export const links = [
 
 export const projectsData = [
   {
+    title: "DLK Digital Agency",
+    description:
+      "Site web d'une agence de création de site web, design et marketing digital. Créer avec Next.js et Tailwind CSS.",
+    tags: ["Next.js", "Tailwind CSS", "TypeScript"],
+    imageUrl: DLK,
+    url: "https://www.dlkdigitalagency.com/",
+    code: "https://github.com/Matteo-CB/DLK_Portfolio",
+  },
+  {
+    title: "Jeu en ligne Fullstack",
+    description:
+      "Clone du jeu Flappy bird, créer avec Next.js et Node.js. Il y a un classement des meilleurs joueurs.",
+    tags: ["Next.js", "Node.js", "TypeScript", "MongoDB"],
+    imageUrl: FlopyBoard,
+    url: "https://flopy-board.vercel.app/",
+    code: "https://github.com/Matteo-CB/clone-flappy-bird",
+  },
+  {
     title: "Remove Background",
     description:
       "Une Application créer avec Next.js et Tailwind CSS, qui permet de supprimer l'arrière plan d'une image.",
@@ -34,15 +53,6 @@ export const projectsData = [
     imageUrl: RemoveBg,
     url: "https://removebackground-dlkdigitalagency.vercel.app/",
     code: "https://github.com/Matteo-CB/Remove-bg-app",
-  },
-  {
-    title: "Page Ecommerce",
-    description:
-      "Une page de site de e-commerce de sneakers, avec les fonctionnalités d'ajout et retrait du panier et présentation des images.",
-    tags: ["React", "Redux-Toolkit", "Sass/Scss", "JavaScript"],
-    imageUrl: Ecommerce,
-    url: "https://e-commerce-rl07hymo5-matteo-cb.vercel.app/",
-    code: "https://github.com/Matteo-CB/e-commerce",
   },
   {
     title: "App Pays",
@@ -72,8 +82,8 @@ export const skillsData = [
   // "Agile",
   // "Kanban",
   "Tailwind CSS",
-  // "MongoDB",
-  // "Redux",
+  "MongoDB",
+  "Redux",
   // "Redux-Toolkit",
   // "Express",
   // "PHP",
