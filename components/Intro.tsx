@@ -85,14 +85,7 @@ export default function Intro() {
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
 
-        <a
-          href="./CV.pdf"
-          download={true}
-          className="cursor-pointer group transition active:scale-105 text-sm sm:text-md px-5 bg-white sm:px-7 sm:py-3 py-2 flex items-center gap-2 rounded-full md:text-lg hover:scale-110 borderBlack dark:bg-white/10"
-        >
-          Télécharger le CV{" "}
-          <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
-        </a>
+        
          <a
           href="https://linkedin.com/in/matteocb"
           target="_blank"
