@@ -55,13 +55,13 @@ const Project: React.FC<ProjectProps> = ({
         </h3>
         <ul className="space-y-4">
           {Object.entries(competencesRegroupees).map(
-            ([groupe, sousComps], idx) => (
+            ([groupe, sousComps]: any, idx) => (
               <li key={idx}>
                 <p className="font-bold text-blue-800 dark:text-blue-300">
                   {groupe}
                 </p>
                 <ul className="list-disc list-inside text-gray-700 ml-4 dark:text-white/70">
-                  {sousComps.map((sous, index) => (
+                  {sousComps.map((sous: any, index: any) => (
                     <li key={index}>{sous}</li>
                   ))}
                 </ul>
