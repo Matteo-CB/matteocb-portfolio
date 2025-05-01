@@ -1,4 +1,6 @@
 import About from "@/components/About";
+import BtsSio from "@/components/BtsSio";
+import Certification from "@/components/Certification";
 import Contact from "@/components/Contact";
 import Header from "@/components/Header";
 import Intro from "@/components/Intro";
@@ -8,7 +10,6 @@ import SectionDivider from "@/components/SectionDivider";
 import Skills from "@/components/Skills";
 
 export default function Home() {
-  
   return (
     <>
       <Header />
@@ -16,6 +17,8 @@ export default function Home() {
         <Intro />
         <SectionDivider />
         <About />
+        <BtsSio />
+        <Certification />
         <Projects />
         <Skills />
         <Contact />
