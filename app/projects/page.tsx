@@ -6,7 +6,7 @@ const Page = () => {
   return (
     <div className="flex flex-col items-center">
       {projectsData.map((project, index) => (
-        <Project key={index} {...project} id={index + 1} />
+        <Project key={index} {...project} />
       ))}
     </div>
   );
