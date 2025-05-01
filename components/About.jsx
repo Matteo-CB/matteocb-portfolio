@@ -10,13 +10,14 @@ export default function About() {
   return (
     <motion.section
       ref={ref}
-      className="scroll-mt-28 mb-28 max-w-[45rem] text-center leading-8 sm:mb-20"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.175 }}
+      className="scroll-mt-28 mb-28 max-w-[45rem] text-center leading-8 sm:mb-20"
+      id="about"
     >
       <SectionHeading>À propos de moi</SectionHeading>
-      <p className="mb-3" id="about">
+      <p className="mb-3">
         Salut, moi c'est <span className="font-medium">Matteo</span> 👋 Après
         avoir suivi une formation professionnelle de développeur web
         <span className="italic underline">
