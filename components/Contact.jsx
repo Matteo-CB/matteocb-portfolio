@@ -7,7 +7,7 @@ import { FaPaperPlane } from "react-icons/fa";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 import MessageSend from "./MessageSend";
-export const hangleOverfow = (isHidden: boolean) => {
+export const hangleOverfow = (isHidden) => {
   if (isHidden) {
     document.body.style.overflow = "hidden";
   } else {
@@ -17,8 +17,8 @@ export const hangleOverfow = (isHidden: boolean) => {
 export default function Contact() {
   const [isSend, setIsSend] = useState(false);
   const { ref } = useSectionInView("Contact");
-  const form: any = useRef();
-  function sendEmail(e: any) {
+  const form = useRef();
+  function sendEmail(e) {
     e.preventDefault();
 
     emailjs
