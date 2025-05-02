@@ -57,8 +57,8 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Bonjour, je m'appelle Matteo.</span> Je suis
-        un <span className="font-bold">développeur frontend, </span>
+        <span className="font-bold">Bonjour, je m'appelle Matteo.</span> Je suis{" "}
+        <span className="font-bold">étudiant en BTS SIO SLAM, </span>
         {/*with <span className="font-bold">8 years</span> of experience.  */}
         J'aime concevoir des{" "}
         <span className="italic">sites & applications web</span>. Je suis
@@ -85,8 +85,7 @@ export default function Intro() {
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
 
-        
-         <a
+        <a
           href="https://linkedin.com/in/matteocb"
           target="_blank"
           className="cursor-pointer transition active:scale-105 hover:scale-110 bg-white p-4 flex text-gray-700 items-center gap-2 rounded-full borderBlack hover:text-gray-950 dark:bg-white/10 dark:text-white/60"
