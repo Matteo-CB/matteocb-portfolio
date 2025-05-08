@@ -227,6 +227,53 @@ export const projectsData = [
   },
 ] as const;
 
+export const e6 = [
+  {
+    title: "Développement d’un site de location de villas en Provence",
+    description:
+      "Affichage des logements disponibles, redirection vers Airbnb, présentation de l’entreprise, optimisation du SEO pour maximiser la visibilité.",
+    tags: ["Next.js", "SEO", "Frontend"],
+    imageUrl: ze,
+    url: "/projects#8",
+    isDownload: false,
+    link: "https://zeenprovence.fr",
+    sousCompetences: [
+      competences[
+        "Répondre aux incidents et aux demandes d’assistance et d’évolution"
+      ][0],
+      competences[
+        "Répondre aux incidents et aux demandes d’assistance et d’évolution"
+      ][2],
+      competences["Développer la présence en ligne de l’organisation"][0],
+      competences["Développer la présence en ligne de l’organisation"][1],
+      competences["Développer la présence en ligne de l’organisation"][2],
+    ],
+  },
+  {
+    title: "Développement d’un blog de voyages",
+    description:
+      "Fonctionnalités : authentification, commentaires, interface admin pour ajouter du contenu, monétisation via affiliation à un site de réservation.",
+    tags: ["Next.js", "Auth", "Affiliation"],
+    imageUrl: ze,
+    url: "/projects#9",
+    isDownload: false,
+    link: "https://travel-blog.vercel.app",
+    sousCompetences: [
+      competences["Gérer le patrimoine informatique"][2],
+      competences["Développer la présence en ligne de l’organisation"][0],
+      competences["Développer la présence en ligne de l’organisation"][1],
+      competences["Développer la présence en ligne de l’organisation"][2],
+      competences[
+        "Mettre à disposition des utilisateurs un service informatique"
+      ][0],
+      competences[
+        "Mettre à disposition des utilisateurs un service informatique"
+      ][1],
+      competences["Organiser son développement professionnel"][2],
+    ],
+  },
+] as const;
+
 export const skillsData = [
   "HTML",
   "CSS",
