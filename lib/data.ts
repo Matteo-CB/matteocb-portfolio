@@ -6,6 +6,7 @@ import trello from "../public/images/trello.png";
 import seo from "../public/images/seo.png";
 import events from "../public/images/724events.png";
 import ze from "../public/images/ze.png";
+import travel from "../public/images/travel.png";
 const competences = {
   "Gérer le patrimoine informatique": [
     "Recenser et identifier les ressources numériques",
@@ -207,7 +208,7 @@ export const projectsData = [
     description:
       "Fonctionnalités : authentification, commentaires, interface admin pour ajouter du contenu, monétisation via affiliation à un site de réservation.",
     tags: ["Next.js", "Auth", "Affiliation"],
-    imageUrl: ze,
+    imageUrl: travel,
     url: "/projects#9",
     isDownload: false,
     link: "https://travel-blog.vercel.app",
