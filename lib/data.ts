@@ -258,7 +258,7 @@ export const e6 = [
     imageUrl: ze,
     url: "/projects#9",
     isDownload: false,
-    link: "https://travel-blog.vercel.app",
+    link: "https://github.com/Matteo-CB/blog-voyage",
     sousCompetences: [
       competences["Gérer le patrimoine informatique"][2],
       competences["Développer la présence en ligne de l’organisation"][0],
