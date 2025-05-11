@@ -39,11 +39,6 @@ export default function About() {
         parcours professionnel ainsi que les différents projets sur lesquels
         j'ai travaillé 💻.
       </p>
-      <p>
-        Vous trouverez également mon <span className="font-medium">CV</span> et
-        mes
-        <span className="font-medium"> réalisations</span> ci-dessous 👨‍💻.
-      </p>
     </motion.section>
   );
 }

@@ -29,8 +29,8 @@ export default function Certification() {
         qui m’a permis d’obtenir un{" "}
         <span className="italic underline">titre RNCP niveau 5 </span>,
         équivalent à un Bac +2. Cette certification atteste de mes compétences
-        techniques en intégration web, développement frontend et backend, et
-        gestion de projets web.
+        techniques en intégration web, développement frontend, et gestion de
+        projets web.
       </p>
 
       <div className="flex justify-center">

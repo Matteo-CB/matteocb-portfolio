@@ -255,7 +255,7 @@ export const e6 = [
     description:
       "Fonctionnalités : authentification, commentaires, interface admin pour ajouter du contenu, monétisation via affiliation à un site de réservation.",
     tags: ["Next.js", "Auth", "Affiliation"],
-    imageUrl: ze,
+    imageUrl: travel,
     url: "/projects#9",
     isDownload: false,
     link: "https://github.com/Matteo-CB/blog-voyage",
